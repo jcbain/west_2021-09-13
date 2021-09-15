@@ -6,9 +6,6 @@ const fly = function() {
   return 5
 }
 
-
-// fly
-// fly()
 const bat = {
   color: "purple",
   // fly: fly
@@ -20,8 +17,6 @@ const bat2 = {
   fly: fly 
 }
 
-// const fly = function() {}
-// fly()
-// console.log(bat.fly)
+
 bat.fly()
 console.log('bat2.fly', bat2.fly)

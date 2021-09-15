@@ -16,5 +16,8 @@ const someSymbol = Symbol("James")
 const bigNum = 12321n /12n;
 console.log(typeof bigNum)
 
+// console.log(9999999999999999); // > 10000000000000000
+// console.log(9007199254740992 === 9007199254740993) // > true
+
 
 // objects

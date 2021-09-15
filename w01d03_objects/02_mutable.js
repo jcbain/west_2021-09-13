@@ -1,3 +1,4 @@
+// immutable
 const name = "James";
 
 const printDifferentName = function(someName) {
@@ -10,7 +11,7 @@ console.log(`the name before the function call: ${name}`);
 printDifferentName(name);
 console.log(`the name after the function call: ${name}`);
 
-
+// mutable
 const lego = {
   color: "yellow",
   shape: "rectangular prism",
@@ -18,9 +19,6 @@ const lego = {
   1: 'some values'
 };
 
-// const newLego = lego
-
-// const newLego = {...lego}
 
 const bat = {
   color: 'red',

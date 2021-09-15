@@ -4,7 +4,7 @@ const lego = {
   size: 2,
 };
 
-
+// iterate over keys in obj
 for(const key in lego) {
   console.log("key:", key)
   console.log("value:",lego[key])
@@ -12,7 +12,7 @@ for(const key in lego) {
 
 
 
-const animals = ['dog', 'cat', 'giraffe'];
+// const animals = ['dog', 'cat', 'giraffe'];
 
 // for(let i = 0; i < animals.lengty; i++){
 //   console.log(animals[i])
